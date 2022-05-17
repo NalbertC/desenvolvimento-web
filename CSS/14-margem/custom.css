@@ -1,0 +1,29 @@
+body {
+    background-color: #e8e8e8;
+    color: #2d49a5;
+}
+
+header{
+    background-color: #ffd700;
+    margin-top: 80px;
+    margin-right: 110px;
+    margin-bottom: 70px;
+    margin-left: 110px;
+}
+
+nav{
+    background-color: #008000;
+    margin: 65px 55px 75px 105px;
+
+}
+
+section{
+    background-color: #004500;
+    margin: 15px 30px;
+    color: #ffffff;
+}
+footer{
+    background-color: #850000;
+    margin: 115px;
+
+}

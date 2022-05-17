@@ -1,0 +1,28 @@
+body {
+    background-color: #e8e8e8;
+    color: #2d49a6;
+}
+
+header {
+    /*width: 200px;*/
+    width: 100%;
+    /*Largura*/
+
+    height: 200px;
+    /*Altura*/
+
+    background-color: #ffd700;
+}
+
+nav {
+    max-width: 1000%;
+    /*Largura máxima*/
+    min-width: 100px;
+    /*Larguara mínima*/
+
+    max-height: 50px;
+    /* Altura máxima*/
+    min-height: 50px;
+    /* Altura mínima*/
+    background-color: #008000;
+}

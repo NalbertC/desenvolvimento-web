@@ -1,0 +1,18 @@
+body{
+    background-color: #e8e8e8;
+    color: #2d49ac;
+}
+h1{
+    color: #38454d;
+    text-align: center; /*coloca o texto no centro*/
+    font-size: 28px;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+a{
+    color: #00bf9b;
+    text-decoration: none;
+}

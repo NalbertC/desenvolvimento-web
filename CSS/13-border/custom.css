@@ -1,0 +1,79 @@
+body {
+    background-color: #e8e8e8;
+    color: #000000;
+}
+
+/*Bordas*/
+.pontilhada {
+    border-style: dotted;
+}
+
+.tracejada {
+    border-style: dashed;
+}
+
+.solida {
+    border-style: solid;
+}
+
+.dupla {
+    border-style: double;
+}
+
+.ranhura {
+    border-style: groove;
+}
+
+.cume {
+    border-style: ridge;
+}
+
+.inset {
+    /*Borda em baixo relevo*/
+    border-style: inset;
+}
+
+.outset {
+    /*Borda em alto relevo*/
+    border-style: outset;
+}
+
+.largura_borda {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #ffd700;
+}
+
+.cor_borda_dif {
+    border-width: 10px;
+    border-style: solid;
+    border-color: #ff0000 #ffff00 #00ffff #4b0082;
+}
+
+.cor_borda_dif_per {
+    background-color: #ffc700;
+    border-top: 15px dotted #008000;
+    /*Borda topo*/
+
+    border-right: 5px dashed #4b0082;
+    /*Borda lateral direita*/
+
+    border-bottom: 15px double #00ffff;
+    /*Borda inferior*/
+
+    border-left: 6px solid #ff0000;
+    /*Borda lateral esquerda*/
+}
+
+.borda_arredondada {
+    border: 2px solid #008000;
+    border-radius: 10px;
+}
+
+.circulo {
+    border: 5px solid #4b0082;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
