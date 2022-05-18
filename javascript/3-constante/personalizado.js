@@ -1,5 +1,5 @@
 const nome = "Nalberth";
-nome = "Vitória";
+//nome = "Vitória";
 
 var curso = "Curso de JavaScript";
 curso = "Curso de PHP";
