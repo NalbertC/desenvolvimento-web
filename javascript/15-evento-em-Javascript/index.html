@@ -17,10 +17,25 @@
     
     <hr>
     
-    <h2>ommouseover e onmouseout</h2>
+    <h2>onmouseover e onmouseout</h2>
     <div onmouseover="mouseOver()" onmouseout="mouseOut()" 
-    class="contPers" id="mouseAlt" >Passe o mouse</div>
+    class="contPers" id="mouseAlt" ><b>Passe o mouse</b> </div>
     
+    <br>
+    <hr>
+
+    <h2>onchang e onkeyup</h2>
+    <form >
+
+        Nome: <input type="text" name="nome" id="nome" onchange="converterTexto()"> <br><br>
+        Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()"> <br><br>
+
+        <br>
+
+        <B><div id="errosenha" class="senhavalida erroSenha " ></div></B>
+    
+    </form>
+
     <hr>
 
     <script src="personalizado.js"></script>
